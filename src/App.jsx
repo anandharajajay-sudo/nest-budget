@@ -20,7 +20,7 @@ const GOAL_COLORS=["#15803D","#2563EB","#7C3AED","#B91C1C","#B45309","#0891B2","
 
 // ─── Default Data ─────────────────────────────────────────────────────────────
 const DEFAULT_DATA={
-  currencies:[{id:"c1",code:"GBP",symbol:"£",name:"British Pound",country:"home"},{id:"c2",code:"EUR",symbol:"€",name:"Euro",country:"abroad"}],
+  currencies:[{id:"c1",code:"SGD",symbol:"$",name:"Singapore Dollar",country:"home"},{id:"c2",code:"MYR",symbol:"RM",name:"Ringgit",country:"abroad"}],
   bills:[
     {id:"b1",name:"Rent",amount:1200,currencyId:"c1",type:"auto",frequency:"monthly",category:"housing",nextDue:"2026-07-01",isPaid:false,icon:"🏠",note:""},
     {id:"b2",name:"Electricity",amount:85,currencyId:"c1",type:"auto",frequency:"monthly",category:"utilities",nextDue:"2026-07-15",isPaid:false,icon:"⚡",note:""},
